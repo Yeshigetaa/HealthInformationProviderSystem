@@ -15,7 +15,7 @@ class Disease extends Model
         'cause',
         'symptom',
         'treatment',
-        'transmition'
+        'transmition',
     ];
     public function HealthExperts()
     {
