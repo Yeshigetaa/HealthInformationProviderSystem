@@ -13,7 +13,7 @@ class HealthExpert extends Model
         'lname',
         'sex',
         'email',
-        'Profession'];
+        'Profession',];
     public function  Diseases()
     {
         return $this->hasMany(Disease::class);
